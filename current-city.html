@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Прогноз погоды</title>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+    </head>
+    
+    <body>
+        <nav class="navbar">
+            <div class="conteiner">
+                <a href="./index.html" class="logo">WeatherLive</a>
+
+                <div class="navbar-wrap">
+                    <ul class="navbar-menu">
+                        <li><a href="./index.html">На главную</a></li>
+                        <li><a href="">О нас</a></li>
+                        <li><a href="">Помощь</a></li>
+
+                        <li><input class="input-search" placeholder="Введите город..."></li>
+                        <li><button class="btn-search">Найти</button></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="main-div">
+            <h1 id="h1">Погода в городе Москва</h1>
+            <div class="widget">
+                <div class="widget-conteiner-tab">
+                    <div class="widget-conteiner-temp">
+                        <img height="" src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png">
+                        <h1 id="h1-temp">+ 18 C°</h1>
+                        <!--<a style="padding: 0;" href="">-->
+                            <img id="edit-pic" height="25px" src="https://www.pinclipart.com/picdir/big/227-2276048_updates-log-clipart.png">
+                        <!--</a>-->
+                        
+                    </div>
+                    <div class="datetime">
+                        <h3>Суббота, 4 Декабря</h3>
+                        <h3>15:00 по Мск</h3>
+                    </div>
+                </div>
+
+                <div class="widget-conteiner-now">
+                    <ul style="list-style-type: none; padding: 0;">
+                        <li>Влажность: 90%</li>
+                        <li>Ощущается: +19</li>
+                        <li>Скорость ветра: 13 м/с</li>
+                        <li>Давление: 756 мм. рт. ст.</li>
+                        <li>Осадки: </li>
+                    </ul>
+
+                    <div class="by-times">
+                        <div id="day-time">
+                            <p>0:00</p>
+                            <div><img src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png"></div>
+                            <p>+19</p>
+                            <p>3 м/с</p>
+                        </div>
+                        <div id="day-time">
+                            <p>6:00</p>
+                            <div><img src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png"></div>
+                            <p>+19</p>
+                            <p>3 м/с</p>
+                        </div>
+                        <div id="day-time">
+                            <p>12:00</p>
+                            <div><img src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png"></div>
+                            <p>+19</p>
+                            <p>3 м/с</p>
+                        </div>
+                        <div id="day-time">
+                            <p>18:00</p>
+                            <div><img src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png"></div>
+                            <p>+19</p>
+                            <p>3 м/с</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="widget-conteiner-week">
+                    <div id="week-day">
+                        <p>ПН</p>
+                        <div><img src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png"></div>
+                        <p>+19</p>
+                    </div>
+                    <div id="week-day">
+                        <p>ВТ</p>
+                        <div><img src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png"></div>
+                        <p>+19</p>
+                    </div>
+                    <div id="week-day">
+                        <p>СР</p>
+                        <div><img src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png"></div>
+                        <p>+19</p>
+                    </div>
+                    <div id="week-day">
+                        <p>ЧТ</p>
+                        <div><img src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png"></div>
+                        <p>+19</p>
+                    </div>
+                    <div id="week-day">
+                        <p>ПТ</p>
+                        <div><img src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png"></div>
+                        <p>+19</p>
+                    </div>
+                    <div id="week-day">
+                        <p>СБ</p>
+                        <div><img src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png"></div>
+                        <p>+19</p>
+                    </div>
+                    <div id="week-day">
+                        <p>ВС</p>
+                        <div><img src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png"></div>
+                        <p>+19</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            Мы используем файлы cookie для вашего удобства пользования сайтом.
+        </footer>
+    </body>
+</html>

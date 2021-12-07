@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Прогноз погоды</title>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+
+        <!--https://ssl.gstatic.com/onebox/weather/64/cloudy.png
+            <https://ssl.gstatic.com/onebox/weather/48/snow_light.png>
+        https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png-->
+    </head>
+    
+    <body>
+        <nav class="navbar">
+            <div class="conteiner">
+                <a href="#" class="logo">WeatherLive</a>
+
+                <div class="navbar-wrap">
+                    <ul class="navbar-menu">
+                        <li><a href="">На главную</a></li>
+                        <li><a href="">О нас</a></li>
+                        <li><a href="">Помощь</a></li>
+
+                        <li><input class="input-search" placeholder="Введите город..."></li>
+                        <li><button class="btn-search">Найти</button></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="main-div">
+            <h1 id="h1">Популярные города России</h1>
+            <a id="a-widget" href="./current-city.html">
+                <div class="widget-item">
+                    <div class="widget-conteiner-tab">
+                        <div class="widget-conteiner-temp">
+                            <img height="" src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png">
+                            <h1 id="h1-temp">+ 18 C°</h1>
+                        </div>
+                        <div class="datetime">
+                            <h2>Москва</h2>
+                            <h3>Ощущается: 19+</h3>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            
+            <a id="a-widget" href="#">
+                <div class="widget-item">
+                    <div class="widget-conteiner-tab">
+                        <div class="widget-conteiner-temp">
+                            <img height="" src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png">
+                            <h1 id="h1-temp">+ 18 C°</h1>
+                        </div>
+                        <div class="datetime">
+                            <h2>Санкт-Петербург</h2>
+                            <h3>Ощущается: 19+</h3>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            
+            <a id="a-widget" href="#">
+                <div class="widget-item">
+                    <div class="widget-conteiner-tab">
+                        <div class="widget-conteiner-temp">
+                            <img height="" src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png">
+                            <h1 id="h1-temp">+ 18 C°</h1>
+                        </div>
+                        <div class="datetime">
+                            <h2>Нижний Новгород</h2>
+                            <h3>Ощущается: 19+</h3>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <footer>
+            Мы используем файлы cookie для вашего удобства пользования сайтом.
+        </footer>
+    </body>
+</html>
