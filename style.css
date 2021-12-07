@@ -17,8 +17,6 @@ h1 {
     font-style: italic;
 }
 
-
-
 .navbar {
     width: 100%;
     height: 60px;
@@ -112,12 +110,6 @@ h1 {
     box-shadow: 0 4px 10px rgba(0, 0, 0, .7);
 }
 
-
-
-
-
-
-
 #a-widget {
     text-decoration: none;
 }
@@ -210,7 +202,6 @@ h1 {
     text-align: center;
 }
 
-
 .widget-conteiner-week {
     justify-content: space-between;
     display: flex;
@@ -244,8 +235,6 @@ h1 {
     text-align: center;
 }
 
-
-
 .weather-week {
     list-style-type: none;
     padding-left: 0;
@@ -255,7 +244,6 @@ h1 {
 .weather-week li {
     display: inline-block;
 }
-
 
 footer {
     background-color: aliceblue;
@@ -267,9 +255,6 @@ footer {
     /* Высота footer */
     height: 30px;
 }
-
-
-
 
 #edit-pic {
     opacity: 0.2;
