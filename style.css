@@ -245,17 +245,6 @@ h1 {
     display: inline-block;
 }
 
-footer {
-    background-color: aliceblue;
-    text-align: center;
-    /* Позиционируем footer внизу main */
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    /* Высота footer */
-    height: 30px;
-}
-
 #edit-pic {
     opacity: 0.2;
     transition: all .1s ease-in-out;
